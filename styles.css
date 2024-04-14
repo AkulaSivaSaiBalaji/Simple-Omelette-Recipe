@@ -1,0 +1,98 @@
+.recipe{
+    height: 70%;
+    width: 570px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 2000px;
+    font-family: Young serif;
+}
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.preparation{
+    background-color: rgb(248, 237, 245);
+    border-radius: 10px;
+}
+
+.preparation h3{
+    color: rgb(69, 12, 77);
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.preparation strong{
+    color: rgb(86, 74, 74);
+    margin-left: 15px;
+}
+
+.preparation ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.preparation ul li{
+    margin-bottom: 10px;
+}
+
+h2{
+    color: rgb(107, 15, 15);
+    margin-top: 15px;
+}
+
+hr{
+    color: black;
+}
+
+.ingredients ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.ingredients ul li{
+    margin-bottom: 10px;
+}
+
+
+.instructions strong{
+    margin-left: 15px;
+}
+
+.instructions ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -15px;
+}
+
+.nutrient p{
+   display: inline-block;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.item{
+    text-align: left;
+    width: 35%;
+}
+
+.amount{
+    text-align: center;
+    width: 65%;
+    color: rgb(107, 15, 15);;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
